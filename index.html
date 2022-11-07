@@ -1,30 +1,64 @@
 <!DOCTYPE html>
-<html lang = "en-US">
-  <head>
-    <title>Animal Wiki</title>
-    <script src = "js/scripts.js"></script>
-    <link href = "css/styles.css" rel="stylesheet" type = "text/css">
-  </head>
-  <body>
-    <h1>Animal Wiki</h1>
-    <form method = "post" action = "#">
-      Please select the animal you would like to learn about:<p>
-        <input type ="radio" name="animal" value = "turtle">Turtles<br>
-        <input type = "radio" name = "animal" value = "cat">Cats<br>
-        <input type = "radio" name = "animal" value = "dog">Dogs<br>
-        <input type = "radio" name = "animal"  value= "other">Other<p>
-        <input type = "submit" value = "Submit">
-        <Input type = "reset" value = "Reset">
-    </form>
-    <div id = "turtle" class="hidden">
-      <img src = "IMG/turtle.jpg" alt ="A tutle photo">
+<html lang="en-US">
 
-    </div>
-    <div id = "cat" class = "hidden">
-      <img src = "IMG/cat.jpg" alt = "A cat photo">
-    </div>
-    <div id = "dog" class = "hidden">
-      <img src = "IMG/dogs.jpg" alt = "Dogs photo">
-    </div>
-  </body>
+<head>
+  <title>Animal Wiki</title>
+  <script src="js/scripts.js"></script>
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <h1>Animal Wiki</h1>
+  <form method="post" action="#">
+    Please select the animal you would like to learn about:<p>
+      <input type="radio" name="animal" value="turtle">Turtles<br>
+      <input type="radio" name="animal" value="cat">Cats<br>
+      <input type="radio" name="animal" value="dog">Dogs<br>
+      <input type="radio" name="animal" value="other">Other
+    <p>
+      <input type="submit" value="Submit">
+      <Input type="reset" value="Reset">
+  </form>
+  <div id="turtle" class="hidden">
+    <img src="IMG/turtle.jpg" alt="A tutle photo">
+    <h3>About Turtle</h3>
+      <p>Turtles are an order of reptiles known as Testudines, characterized by a shell developed mainly from their
+        ribs. Modern turtles are divided into two major groups, the Pleurodira and Cryptodira, which differ in the way
+        the head retracts.</p>
+      <p><strong>Clutch size:</strong> <em>Leatherback sea turtle:</em> 110, <em>Asian giant softshell turtle:</em> 24 –
+        70</p>
+        <p><strong>Scientific name:</strong> Testudines</p>
+        <p><strong>Higher classification:</strong> Testudinata</p>
+        <p><strong>Speed:</strong> Leatherback sea turtle: 35 km/h</p>
+        <p><strong>Kingdom:</strong> Animalia</p>
+        <p><strong>Order:</strong> Testudines; Batsch, 1788</p>
+  </div>
+  <div id="cat" class="hidden">
+    <img src="IMG/cat.jpg" alt="A cat photo">
+    <h3>About Cat</h3>
+    <p>The cat is a domestic species of small carnivorous mammal. It is the only domesticated species in the family
+      Felidae and is commonly referred to as the domestic cat or house cat to distinguish it from the wild members of
+      the family</p>
+    <p><strong>Daily sleep:</strong> 12 – 16 hours</p>
+    <p><strong>Mass:</strong> 4 – 5 kg (Domesticated)</p>
+    <p><strong>Speed:</strong> 48 km/h (Maximum)</p>
+    <p><strong>Height:</strong> 23 – 25 cm</p>
+    <p><strong>Lifespan:</strong> 12 – 18 years (Domesticated)</p>
+    <p><strong>Scientific name:</strong> Felis catus</p>
+  </div>
+  <div id="dog" class="hidden">
+    <img src="IMG/dogs.jpg" alt="Dogs photo">
+    <h3>About Dog</h3>
+    <p>The dog is a domesticated descendant of the wolf. Also called the domestic dog, it is derived from the extinct
+      Pleistocene wolf, and the modern wolf is the dog's nearest living relative. The dog was the first species to be
+      domesticated, by hunter-gatherers over 15,000 years ago, before the development of agriculture.</p>
+    <p><strong>Daily sleep:</strong> 12 – 14 hours (Adult)</p>
+    <p><strong>Speed:</strong><em>German Shepherd:</em> 48 km/h, <em>Greyhound:</em> 72 km/h</p>
+    <p><strong>Scientific name:</strong> Canis lupus familiaris</p>
+    <p><strong>Lifespan:</strong> 10 – 13 years</p>
+    <p><strong>Rank:</strong> Subspecies</p>
+    <p><strong>Gestation period:</strong> 58 – 68 days</p>
+  </div>
+</body>
+
 </html>
