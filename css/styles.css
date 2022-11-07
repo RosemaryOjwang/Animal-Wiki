@@ -1,5 +1,5 @@
 .hidden {
-  /*display: none;*/
+  display: none;
   float: left;
   width: 40%;
   border: solid #2AAA8A 4px;
@@ -15,7 +15,7 @@ h1  {
   margin-left: 35%;
 }
 img {
-  width: 80%;
+  width: 35%;
   margin-top: 20px;
   margin-left: 10%;
   border-radius: 30%;
